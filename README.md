@@ -2,7 +2,7 @@
 
 Projeto de leitura de arquivos XML de agentes. API desenvolvida com Java 11 e SpringBoot. Por questão de simplicidade e do tempo concedido, não foram implementados alguns aspectos, como validações mais foram extensas e algumas organizações do projeto, como arquivos de configuração.
 
-A leitura do XML foi implementada usando a biblioteca Xstream.
+A leitura do XML foi implementada usando a biblioteca Xstream. O código dos agentes é apresentado no console do java.
 
 O armazenamento está usando o banco de dados em memória H2, configurado para ser recriado a cada execução. Quando o projeto estiver em execução,
 o banco pode ser acessado com os seguintes dados:
